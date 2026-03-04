@@ -5,3 +5,5 @@ streamlit-webrtc
 av
 opencv-python-headless
 numpy
+pandas
+Pillow
