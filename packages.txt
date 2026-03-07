@@ -8,7 +8,3 @@ libavformat-dev
 libavdevice-dev
 libavfilter-dev
 libavcodec-dev
-zlib1g-dev
-libjpeg-dev
-libfreetype6-dev
-
