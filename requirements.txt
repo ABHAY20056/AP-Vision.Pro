@@ -1,7 +1,6 @@
-mediapipe==0.10.11: This is the most stable version for Linux cloud servers.
-
-protobuf==3.20.3: MediaPipe often crashes without this specific version.
-
-numpy==1.26.4: This prevents the "NumPy 2.0" error that is currently breaking AI apps worldwide.
-
-opencv-python-headless: This ensures the app doesn't look for a "monitor" that isn't there.
+streamlit==1.32.0
+streamlit-webrtc==0.47.1
+ultralytics==8.1.0
+av==11.0.0
+opencv-python-headless==4.9.0.80
+numpy==1.26.4
