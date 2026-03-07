@@ -1,2 +1,50 @@
+ffmpeg
 libgl1
 libglib2.0-0
+libsm6
+libxext6
+```
+
+**`app.py`** → your existing file (already in repo ✅)
+
+> ⚠️ Delete `Dockerfile` from your repo — it's not needed here!
+
+---
+
+### Step 2: Create Account on Streamlit Cloud
+
+1. Go to 👉 [share.streamlit.io](https://share.streamlit.io)
+2. Click **"Sign up"**
+3. Click **"Continue with GitHub"** — use the same GitHub account your repo is on
+4. Authorize Streamlit
+
+---
+
+### Step 3: Deploy Your App
+
+1. Click **"New app"** button
+2. Fill in the form:
+```
+Repository  →  your-username/your-repo-name
+Branch      →  main
+Main file   →  app.py
+```
+
+3. Click **"Deploy!"**
+
+---
+
+### Step 4: Wait for Build
+
+- You'll see a **build log** screen
+- Takes about **3–5 minutes** first time
+- You'll see it installing your packages one by one
+- When done → your app opens **live in browser** ✅
+
+---
+
+### Step 5: Your App is Live! 🎉
+
+You'll get a free URL like:
+```
+https://your-username-your-repo-app-xxxxx.streamlit.app
